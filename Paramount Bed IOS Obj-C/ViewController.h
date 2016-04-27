@@ -9,7 +9,16 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+{
+    IBOutlet UITextField *txtUsername;
+    IBOutlet UITextField *txtPass;
+    IBOutlet UIImageView *imglogo;
+    IBOutlet UILabel *lbltest;
+}
 
+- (IBAction)btnLogin:(id)sender;
+
+@property(nonatomic,assign) NSMutableData *receivedData;
 
 @end
 
