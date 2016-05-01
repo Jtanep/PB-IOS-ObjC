@@ -31,7 +31,7 @@
     // Do view setup here.
     
     //sMemberID=1
-    NSMutableString *post = [NSString stringWithFormat:@"sMemberID=%@",[self.sMemberID description]];
+    NSMutableString *post = [NSString stringWithFormat:@"sMemberID=%@",[self .sMemberID description]];
     
     NSData *postData = [post dataUsingEncoding:NSASCIIStringEncoding allowLossyConversion:YES];
     NSString *postLength = [NSString stringWithFormat:@"%d", [postData length]];

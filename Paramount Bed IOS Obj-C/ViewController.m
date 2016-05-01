@@ -105,7 +105,7 @@
         NSLog(@"Message=%@",strMessage);
         
         //Login Completed
-        if([strStatus isEqualToString:@"1"]){
+        if ([strStatus isEqualToString:@"1"]){
             
             ViewdefaultController *viewInfo = [[[ViewdefaultController alloc] initWithNibName:nil bundle:nil] autorelease];
             viewInfo.sMemberID = strMemberID;
@@ -129,11 +129,5 @@
     // Dispose of any resources that can be recreated.
 }
 
-- (void)dealloc {
-    //[txtUsername release];
-    //[txtPass release];
-    //[super dealloc];
-    
-}
 
 @end
