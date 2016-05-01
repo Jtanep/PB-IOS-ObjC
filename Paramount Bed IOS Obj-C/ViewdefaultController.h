@@ -10,5 +10,14 @@
 
 
 @interface ViewdefaultController : UIViewController
+{
+
+    IBOutlet UIImageView *imgqrsearch;
+    IBOutlet UIImageView *imgserial;
+    IBOutlet UIImageView *add;
+}
+
+@property (strong, nonatomic) id sMemberID;
+@property(nonatomic,assign) NSMutableData *receivedData;
 
 @end

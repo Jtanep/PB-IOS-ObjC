@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "ViewdefaultController.h"
 
 @interface ViewController ()
 {
@@ -36,6 +37,7 @@
     //Check username&pass
     NSMutableString *post = [NSString stringWithFormat:@"sUsername=%@&sPassword=%@",[txtUsername text],[txtPass text]];
     NSData *postData = [post dataUsingEncoding:NSASCIIStringEncoding allowLossyConversion:YES];
+    NSString *postLength = [NSString stringWithFormat:@"%d", [postData length]];
     NSURL *url = [NSURL URLWithString:@"http://pb.zerother.com/checkLogin.php"];
     NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:url cachePolicy:NSURLRequestReloadIgnoringLocalCacheData timeoutInterval:10.0];
     [request setHTTPMethod:@"POST"];
@@ -51,14 +53,13 @@
         UIAlertView *connectFailMessage = [[UIAlertView alloc]
                                            initWithTitle:@"NSURLConnection" message:@"Failed in viewDidLoad" delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil];
         [connectFailMessage show];
-        [connectFailMessage release];
     }
     
 }
 
-- (void)connection:(NSURLConnection *)connection didReceiveResponse:(nonnull NSURLResponse *)response
+- (void)connection:(NSURLConnection *)connection didReceiveResponse:(NSURLResponse *)response
 {
-    receivedData = [[NSMutableData alloc] init];
+    receivedData = [[NSMutableData alloc]init];
 }
 
 -(void)connection:(NSURLConnection *)connection didReceiveData:(NSData *)data
@@ -69,13 +70,13 @@
 
 -(void)connection:(NSURLConnection *)connection didFailWithError:(NSError *)error
 {
-    [connection release];
-    [receivedData release];
+    //[connection release];
+    //[receivedData release];
     
     //inform the user
     UIAlertView *didFailWithErrorMessage = [[UIAlertView alloc] initWithTitle:@"NSURLConnection " message:@"didFailWithError" delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil];
     [didFailWithErrorMessage show];
-    [didFailWithErrorMessage release];
+    
     
     //inform the user
     NSLog(@"Connection failed! Error - %@", [error localizedDescription]);
@@ -97,15 +98,16 @@
         id jsonObjects = [NSJSONSerialization JSONObjectWithData:receivedData options:NSJSONReadingMutableContainers error:nil];
         //value in key name
         NSString *strStatus = [jsonObjects objectForKey:@"Status"];
-        NSString *strMemberID = [jsonObjects objectForKey:@"no"];
+        NSString *strMemberID = [jsonObjects objectForKey:@"MemberID"];
         NSString *strMessage = [jsonObjects objectForKey:@"Message"];
         NSLog(@"Status=%@",strStatus);
         NSLog(@"MemberID=%@",strMemberID);
         NSLog(@"Message=%@",strMessage);
         
         //Login Completed
-        if ([strStatus isEqualToString:@"1"]) {
-            ViewdefaultCon *viewInfo = [[[LoginInfoViewController alloc]initWithNibName:nil bundle:nil] autorelease];
+        if ([strStatus isEqualToString:@"1"]){
+            
+            ViewdefaultController *viewInfo = [[[ViewdefaultController alloc] initWithNibName:nil bundle:nil] autorelease];
             viewInfo.sMemberID = strMemberID;
             [self presentViewController:viewInfo animated:NO completion:NULL];
         }
@@ -118,8 +120,8 @@
     }
     
     //release the connection, and the data object
-    [connection release];
-    [receivedData release];
+    //[connection release];
+    //[receivedData release];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -127,10 +129,5 @@
     // Dispose of any resources that can be recreated.
 }
 
-- (void)dealloc {
-    [txtUsername release];
-    [txtPass release];
-    
-}
 
 @end

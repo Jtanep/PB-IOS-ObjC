@@ -129,6 +129,11 @@
                         <color key="backgroundColor" red="0.0" green="0.29087458490000001" blue="0.60304487179999999" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="add" destination="gh3-KV-yDB" id="46w-5d-MZ0"/>
+                        <outlet property="imgqrsearch" destination="pB9-CR-96S" id="sTX-pP-vlt"/>
+                        <outlet property="imgserial" destination="hn2-mj-BhQ" id="eRY-0O-t20"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hvQ-cc-PhV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
