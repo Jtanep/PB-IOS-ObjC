@@ -25,6 +25,15 @@
 		6C5871821CA9353A0051EE68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C5871801CA9353A0051EE68 /* LaunchScreen.storyboard */; };
 		6C58718D1CA9353A0051EE68 /* Paramount_Bed_IOS_Obj_CTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C58718C1CA9353A0051EE68 /* Paramount_Bed_IOS_Obj_CTests.m */; };
 		6C5871981CA9353A0051EE68 /* Paramount_Bed_IOS_Obj_CUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C5871971CA9353A0051EE68 /* Paramount_Bed_IOS_Obj_CUITests.m */; };
+		B3AFB2A61CF82C19005FE405 /* Add-icon-new-return-camera-back.png in Resources */ = {isa = PBXBuildFile; fileRef = B3AFB29D1CF82C19005FE405 /* Add-icon-new-return-camera-back.png */; };
+		B3AFB2A71CF82C19005FE405 /* Add-icon-new-return-camera.png in Resources */ = {isa = PBXBuildFile; fileRef = B3AFB29E1CF82C19005FE405 /* Add-icon-new-return-camera.png */; };
+		B3AFB2A81CF82C19005FE405 /* Do-Camera-Icon-new.png in Resources */ = {isa = PBXBuildFile; fileRef = B3AFB29F1CF82C19005FE405 /* Do-Camera-Icon-new.png */; };
+		B3AFB2A91CF82C19005FE405 /* Photo-Video-Rotate-Camera-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B3AFB2A01CF82C19005FE405 /* Photo-Video-Rotate-Camera-icon.png */; };
+		B3AFB2AA1CF82C19005FE405 /* Add-icon-serial.png in Resources */ = {isa = PBXBuildFile; fileRef = B3AFB2A11CF82C19005FE405 /* Add-icon-serial.png */; };
+		B3AFB2AB1CF82C19005FE405 /* Add-icon-74440.png in Resources */ = {isa = PBXBuildFile; fileRef = B3AFB2A21CF82C19005FE405 /* Add-icon-74440.png */; };
+		B3AFB2AC1CF82C19005FE405 /* Add-icon-new.png in Resources */ = {isa = PBXBuildFile; fileRef = B3AFB2A31CF82C19005FE405 /* Add-icon-new.png */; };
+		B3AFB2AD1CF82C19005FE405 /* iconQR-P.png in Resources */ = {isa = PBXBuildFile; fileRef = B3AFB2A41CF82C19005FE405 /* iconQR-P.png */; };
+		B3AFB2AE1CF82C19005FE405 /* Add-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B3AFB2A51CF82C19005FE405 /* Add-icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,7 +57,7 @@
 		6C3C36151CC36088002E3A78 /* Do-Camera-Icon-new.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Do-Camera-Icon-new.png"; path = "../../../iimg/Do-Camera-Icon-new.png"; sourceTree = "<group>"; };
 		6C3C36171CC37271002E3A78 /* Add-icon-new-return-camera-back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Add-icon-new-return-camera-back.png"; path = "../../../iimg/Add-icon-new-return-camera-back.png"; sourceTree = "<group>"; };
 		6C3C36191CC372A1002E3A78 /* Add-icon-new-return-camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Add-icon-new-return-camera.png"; path = "../../../iimg/Add-icon-new-return-camera.png"; sourceTree = "<group>"; };
-		6C3C361B1CC377DD002E3A78 /* Add-icon-camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Add-icon-camera.png"; path = "../../../iimg/Add-icon-camera.png"; sourceTree = "<group>"; };
+		6C3C361B1CC377DD002E3A78 /* Add-icon-camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Add-icon-camera.png"; path = "iimg/Add-icon-camera.png"; sourceTree = "<group>"; };
 		6C3C942B1CB6A8A900744458 /* logo_paramountbed_.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = logo_paramountbed_.gif; path = ../../../iimg/logo_paramountbed_.gif; sourceTree = "<group>"; };
 		6C433D041CC21C4800F8BB4F /* ViewdefaultController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewdefaultController.h; sourceTree = "<group>"; };
 		6C433D051CC21C4800F8BB4F /* ViewdefaultController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewdefaultController.m; sourceTree = "<group>"; };
@@ -72,6 +81,15 @@
 		6C5871931CA9353A0051EE68 /* Paramount Bed IOS Obj-CUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Paramount Bed IOS Obj-CUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C5871971CA9353A0051EE68 /* Paramount_Bed_IOS_Obj_CUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Paramount_Bed_IOS_Obj_CUITests.m; sourceTree = "<group>"; };
 		6C5871991CA9353A0051EE68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3AFB29D1CF82C19005FE405 /* Add-icon-new-return-camera-back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Add-icon-new-return-camera-back.png"; path = "iimg/Add-icon-new-return-camera-back.png"; sourceTree = "<group>"; };
+		B3AFB29E1CF82C19005FE405 /* Add-icon-new-return-camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Add-icon-new-return-camera.png"; path = "iimg/Add-icon-new-return-camera.png"; sourceTree = "<group>"; };
+		B3AFB29F1CF82C19005FE405 /* Do-Camera-Icon-new.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Do-Camera-Icon-new.png"; path = "iimg/Do-Camera-Icon-new.png"; sourceTree = "<group>"; };
+		B3AFB2A01CF82C19005FE405 /* Photo-Video-Rotate-Camera-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Photo-Video-Rotate-Camera-icon.png"; path = "iimg/Photo-Video-Rotate-Camera-icon.png"; sourceTree = "<group>"; };
+		B3AFB2A11CF82C19005FE405 /* Add-icon-serial.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Add-icon-serial.png"; path = "iimg/Add-icon-serial.png"; sourceTree = "<group>"; };
+		B3AFB2A21CF82C19005FE405 /* Add-icon-74440.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Add-icon-74440.png"; path = "iimg/Add-icon-74440.png"; sourceTree = "<group>"; };
+		B3AFB2A31CF82C19005FE405 /* Add-icon-new.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Add-icon-new.png"; path = "iimg/Add-icon-new.png"; sourceTree = "<group>"; };
+		B3AFB2A41CF82C19005FE405 /* iconQR-P.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iconQR-P.png"; path = "iimg/iconQR-P.png"; sourceTree = "<group>"; };
+		B3AFB2A51CF82C19005FE405 /* Add-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Add-icon.png"; path = "iimg/Add-icon.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +140,15 @@
 		6C5871711CA9353A0051EE68 /* Paramount Bed IOS Obj-C */ = {
 			isa = PBXGroup;
 			children = (
+				B3AFB29D1CF82C19005FE405 /* Add-icon-new-return-camera-back.png */,
+				B3AFB29E1CF82C19005FE405 /* Add-icon-new-return-camera.png */,
+				B3AFB29F1CF82C19005FE405 /* Do-Camera-Icon-new.png */,
+				B3AFB2A01CF82C19005FE405 /* Photo-Video-Rotate-Camera-icon.png */,
+				B3AFB2A11CF82C19005FE405 /* Add-icon-serial.png */,
+				B3AFB2A21CF82C19005FE405 /* Add-icon-74440.png */,
+				B3AFB2A31CF82C19005FE405 /* Add-icon-new.png */,
+				B3AFB2A41CF82C19005FE405 /* iconQR-P.png */,
+				B3AFB2A51CF82C19005FE405 /* Add-icon.png */,
 				6C3C361B1CC377DD002E3A78 /* Add-icon-camera.png */,
 				6C3C36191CC372A1002E3A78 /* Add-icon-new-return-camera.png */,
 				6C3C36171CC37271002E3A78 /* Add-icon-new-return-camera-back.png */,
@@ -278,18 +305,27 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3AFB2AD1CF82C19005FE405 /* iconQR-P.png in Resources */,
+				B3AFB2AE1CF82C19005FE405 /* Add-icon.png in Resources */,
 				6C5871821CA9353A0051EE68 /* LaunchScreen.storyboard in Resources */,
+				B3AFB2AC1CF82C19005FE405 /* Add-icon-new.png in Resources */,
+				B3AFB2A81CF82C19005FE405 /* Do-Camera-Icon-new.png in Resources */,
 				6C3C36161CC36088002E3A78 /* Do-Camera-Icon-new.png in Resources */,
+				B3AFB2A71CF82C19005FE405 /* Add-icon-new-return-camera.png in Resources */,
 				6C3C361A1CC372A1002E3A78 /* Add-icon-new-return-camera.png in Resources */,
 				6C433D0C1CC2513B00F8BB4F /* Add-icon.png in Resources */,
 				6C433D0E1CC2531B00F8BB4F /* Add-icon-serial.png in Resources */,
+				B3AFB2A91CF82C19005FE405 /* Photo-Video-Rotate-Camera-icon.png in Resources */,
 				6C433D0B1CC2513B00F8BB4F /* Add-icon-new.png in Resources */,
 				6C58717F1CA9353A0051EE68 /* Assets.xcassets in Resources */,
 				6C3C361C1CC377DD002E3A78 /* Add-icon-camera.png in Resources */,
+				B3AFB2A61CF82C19005FE405 /* Add-icon-new-return-camera-back.png in Resources */,
 				6C433D0A1CC2513B00F8BB4F /* Add-icon-74440.png in Resources */,
 				6C58717D1CA9353A0051EE68 /* Main.storyboard in Resources */,
+				B3AFB2AB1CF82C19005FE405 /* Add-icon-74440.png in Resources */,
 				6C3C942C1CB6A8A900744458 /* logo_paramountbed_.gif in Resources */,
 				6C3C36181CC37271002E3A78 /* Add-icon-new-return-camera-back.png in Resources */,
+				B3AFB2AA1CF82C19005FE405 /* Add-icon-serial.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -107,7 +107,7 @@
         //Login Completed
         if ([strStatus isEqualToString:@"1"]){
             
-            ViewdefaultController *viewInfo = [[[ViewdefaultController alloc] initWithNibName:nil bundle:nil] autorelease];
+            ViewdefaultController *viewInfo = [[ViewdefaultController alloc] initWithNibName:nil bundle:nil];
             viewInfo.sMemberID = strMemberID;
             [self presentViewController:viewInfo animated:NO completion:NULL];
         }
